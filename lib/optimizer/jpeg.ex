@@ -1,7 +1,7 @@
 defmodule ImageOptimizerEx.Optimizer.Jpeg do
   @default_quality 80
 
-  def optimize(src, dst, options) do
+  def optimize(src, dst, options \\ %{}) do
     flags = cmd_flags(src, dst, options)
     System.cmd("convert", flags, stderr_to_stdout: true)
   end
