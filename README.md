@@ -1,6 +1,6 @@
 # ImageOptimizerEx
 
-**TODO: Add description**
+**Image Optimizer: a few different image compressors, jpegconvert, pngcrush, pngquant, trimage**
 
 ## Installation
 
